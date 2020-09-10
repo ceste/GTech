@@ -24,7 +24,8 @@ def pass_to_api(url, data):
 if __name__ == '__main__':
 
 	# # local url
-	url = config.LOCAL_URL
+	# url = config.LOCAL_URL
+	url = config.HEROKU_URL
 
 	# news
 
